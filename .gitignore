@@ -1,0 +1,43 @@
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# vscode ignore
+.vscode/
+
+# vim ignore
+*.swp
+*.swo
+*.swn
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.exe
+*.exe~
+*.patch
+*.tmp
+*debug.test
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# bazel ignore
+/bazel-*
+/_output
+
+# project ignore
+*.cert
+*.key
+
+/deployment.yaml
+/Dockerfile
+/etc/*
+!/etc/example.yaml
+/vendor
+/*-coverage.out
+/*-coverage.html
